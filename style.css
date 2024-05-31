@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(252, 222, 166);
+}
+
+.hdrTwo {
+    display: flex;
+  }
+
+  .log , .pesq , .btn , .painel {
+    margin-top: 3px;
+  }
+
+  .log img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+  }
+  
+.hdrTwo img {
+    margin-top: 10px;
+    margin-left: 50px;
+  
+  }
+  
+  .pesq input {
+    border: 1px solid #ccc;
+    height: 35px;
+    width: 450px;
+    border-radius: 20px;
+    background-color: var(--cor--input-One);
+     margin-top: 0px;
+    background-color: white;
+    font-size: 18px;
+    padding-left: 40px; /* Espaço para o ícone */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    
+}
+
+  
+
+
+.pesq ::placeholder{
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+    
+}
+
+.pesq input:focus {
+    border-color: #007bff;
+    box-shadow: 0 2px 5px rgba(0, 123, 255, 0.2);
+    outline: none;
+}
+
+
+
+form {
+  display: flex;
+  margin-left: 60px;
+}
+  
+  
+  .btn img,
+  button {
+    border: none;
+    cursor: pointer;
+    background-color: var(--cor-header-One);
+    width: 45px;
+    height: 42px;
+  }
+  
+  .btn img {
+    margin: 0px;
+  
+  }
+  
+  .pesq,
+  .btn {
+    margin-top: 20px;
+  
+  
+  }
+  
+  .pnlOne a {
+    margin-top: 10px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .pnlOne p {
+    margin-top: 14px;
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  
+  .painel {
+    display: flex;
+  }
+  
+  .pnlOne img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .pnlTwo {
+    margin-top: 10px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .pnlTwo a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .pnlTwo {
+    margin-top: 10px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .pnlTwo p {
+    margin-top: 14px;
+    margin-left: 5px;
+  }
+  
+  
+  
+  .pnlTwo img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .carrinho img {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  
+  
+  .category a {
+  
+    text-decoration: none;
+    color: var(--cor--input-Cinza);
+  }
+  
+  a:hover {
+    text-decoration: none;
+  
+  }
+  
+  
+  
+  .petshop {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    
+  
+  }
+  
+  
